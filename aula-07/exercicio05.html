@@ -31,9 +31,79 @@
                 <li>"*", "/" e "%"</li>
                 <li>"+" e "-"</li>
             </ol>
+            <br>
+        </ul>
+        <li>Operadores de Auto-atribuição de Variável</li>
+        <ul>
+            <li>n = n + 4 || n += 4</li>
+            <li>n = n - 4 || n -= 4</li>
+            <li>n = n * 4 || n *= 4</li>
+            <li>n = n / 4 || n /= 4</li>
+            <li>n = n % 4 || n %= 4</li>
+            <li>n = n ** 4 || n **= 4</li>
+            <br>
+        </ul>
+        <li>Operadores de Incremento</li>
+        <ul>
+            <li>Pós Incremento</li>
+            <ul>
+                <li>n = n + 1 => n++</li>
+                <li>n = n - 1 => n--</li>
+            </ul>
+            <li>Pré Incremento</li>
+            <ul>
+                <li>n = 1 + n => ++n</li>
+                <li>n = 1 - n => --n</li>
+            </ul>
         </ul>
         <br>
     </ol>
-    
+    <script>
+        var a = 5 + 3
+        var b = a % 5
+        var c = 5 * b ** 2
+        var d = 10 - a / 2
+        var e = 6 * 2 / d
+        var f = b % e + 4 / e
+        document.write(`
+            <p>Exemplo de Operadores Aritméticos com ordem de Precedência:</p>
+            var a = 5 + 3 => ${a} <br>
+            var b = a % 5 => ${b} <br>
+            var c = 5 * b ** 2 => ${c} <br>
+            var d = 10 - a / 2 => ${d} <br>
+            var e = 6 * 2 / d => ${e} <br>
+            var f = b % e + 4 / e => ${f}
+        `)
+        var n = 3
+        n += 4
+        n -= 4
+        n *= 4
+        n /= 4
+        n %= 4
+        n **= 4
+        document.write(`
+            <p>Exemplo de Operadores de Auto-atribuição de Variável:</p>
+            var n = 3 => 3 <br>
+            n += 4 => 7 <br>
+            n -= 4 => 3 <br>
+            n *= 4 => 12 <br>
+            n /= 4 => 3 <br>
+            n %= 4 => 3 <br>
+            n **= 4 => ${n} <br>
+        `)
+        var n = 10
+        n++
+        n--
+        ++n
+        --n
+        document.write(`
+            <p>Exemplo de Operadores de Incremento:</p>
+            var n = 10 <br>
+            n++ => 11 <br>
+            n-- => 10 <br>
+            ++n => 11<br>
+            --n => ${n} <br>
+            `)
+    </script>
 </body>
 </html>

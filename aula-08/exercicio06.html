@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de JS - Curso em Video</title>
+    <style>
+        body {
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Curso em video - Aula 08</h1>
+
+    <p>Aula 08 - Operadores (Parte 2)</p>
+    <ol>
+        <li>Operadores Relacionais</li>
+        <ul>
+            <li>">"</li>
+            <li>"<"</li>
+            <li>">="</li>
+            <li>"<="</li>
+            <li>"=="</li>
+            <li>"!="</li>
+        </ul>
+        <br>
+        <li>Operadores de Identidade</li>
+        <ul>
+            <li>"==": igual (valor)</li>
+            <li>"===": idêntico (valor e tipo)</li>
+        </ul>
+        <br>
+        <li>Operadores Lógicos</li>
+        <ul>
+            <li>"!": negação</li>
+            <li>"&&": e/conjunção</li>
+            <li>"||": ou/disjunção</li>
+        </ul>
+        <br>
+        <li>Operador Ternário</li>
+        <ul>
+            <li>"?", ":": teste ? verdadeiro : falso</li>
+        </ul>
+        <br>
+        <li>Precedência</li>
+        <ol>
+            <li>Operadores Aritiméticos => "()", "**", "/"...</li>
+            <li>Operadores Relacionais => Da esquerda para direita</li>
+            <li>"!"</li>
+            <li>"&&"</li>
+            <li>"||"</li>
+        </ol>
+    </ol>
+    <script>
+        var maior = 5 > 2
+        var menor = 7 < 4
+        var maiorIgual = 8 >= 8
+        var menorIgual = 9 <= 7
+        var igual = 5 == 5
+        var diferente = 4 != 4
+        document.write(`
+            <p>Exemplo de Operador Relacional:</p>
+            5 > 2 => ${maior} <br>
+            7 < 4 => ${menor} <br>
+            8 >= 8 => ${maiorIgual} <br>
+            9 <= 7 => ${menorIgual} <br>
+            5 == 5 => ${igual} <br>
+            4 != 4 => ${diferente} <br>
+        `)
+        var identico = 5 === "5"
+        document.write(`
+            <p>Exemplo de Operador de Identidade:</p>
+            5 == 5 => ${igual} <br>
+            5 == "5" => ${igual} <br>
+            5 === "5" => ${identico} <br>
+        `)
+        var negacao = !true
+        var verdadeiroVerdadeiro = true && true
+        var verdadeiroFalso = true && false
+        var falsoVerdadeiro = false && true
+        var falsoFalso = false && false
+        var verdadeiroOuVerdadeiro = true || true
+        var verdadeiroOuFalso = true || false
+        var falsoOuVerdadeiro = false || true
+        var falsoOuFalso = false || false
+        document.write(`
+            <p>Exemplo de Operador de Conjunção:</p>
+            !true => ${negacao} <br>
+            !false => ${!negacao} <br>
+            true && true => ${verdadeiroVerdadeiro} <br>
+            true && false => ${verdadeiroFalso} <br>
+            false && true => ${falsoVerdadeiro} <br>
+            false && false => ${falsoFalso} <br>
+            true || true => ${verdadeiroOuVerdadeiro} <br>
+            true || false => ${verdadeiroOuFalso} <br>
+            false || true => ${falsoOuVerdadeiro} <br>
+            false || false => ${falsoOuFalso} <br>
+        `)
+    </script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# curso-em-video-javascript
+# Curso Javascript - Curso em Vídeo
 
 <h2>Aula 04</h2>
 <p>Foram apresentados três métodos do window (JS):</p>
@@ -20,6 +20,22 @@
 <p>Nesta aula foi apresentado a primeira parte dos operadores:</p>
 <ol>
     <li>Operadores Aritméticos</li>
-    <li></li>
+        <ul>
+            <li>Tipos de Operadores</li>
+            <li>Ordem de Procedência de Operadores Aritméticos</li>
+        </ul>
+    <li>Operadores de Auto-atribuição de Variável</li>
+    <li>Operadores de Incremento</li>
+</ol>
+
+<h2>Aula 08</h2>
+<p>Nesta aula foi apresentado a segunda parte dos operadores:</p>
+<ol>
+    <li>Operadores Relacionais</li>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    <li>/li>
     <li></li>
 </ol>
