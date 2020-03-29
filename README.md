@@ -31,11 +31,8 @@
 <h2>Aula 08</h2>
 <p>Nesta aula foi apresentado a segunda parte dos operadores:</p>
 <ol>
-    <li>Operadores Relacionais</li>
-        <ul>
-            <li></li>
-            <li></li>
-        </ul>
-    <li>/li>
-    <li></li>
+    <li>Operadores Relacionais ("<", ">", ">=", "<=", "==", "!=")</li>
+    <li>Operadores de Identidade ("==" e "===")</li>
+    <li>Operadores de Conjunção ("!", "&&" e "||")</li>
+    <li>Operador Ternário ( teste ? verdadeiro : falso)</li>
 </ol>
