@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JS - Curso em Vídeo</title>
+    <style>
+        body {
+            font: Normal 18px Arial;
+        }
+        input {
+            margin-top: 20px;
+        }
+        div#resultado {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aula 10 - Parte 2 (Eventos)</h1>
+    <p>Os eventos também servem para atribuir valor para variáveis:</p>
+    <p>Insira valores nos inputs e depois clique em somar:</p>
+    <label for="primeiroNumero"><strong>Primeiro Número:</strong> </label>
+    <input type="number" name="primeiroNumero" id="primeiroNumero"><br>
+    <label for="segundoNumero"><strong>Segundo Número:</strong> </label>
+    <input type="number" name="segundoNumero" id="segundoNumero"><br>
+    <input type="button" id="somar" value="Somar">
+    <div id="resultado"></div>
+    <script>
+        var botaoSoma = window.document.querySelector('input#somar')
+        botaoSoma.addEventListener('click', somar)
+        
+        function somar() {
+            var primeiroNumero      = Number(window.document.getElementById('primeiroNumero').value)
+            var segundoNumero       = Number(window.document.getElementById('segundoNumero').value)
+            var soma                = primeiroNumero + segundoNumero
+            var resultado           = window.document.querySelector('div#resultado')
+            resultado.innerHTML     = `A soma entre ${primeiroNumero} e ${segundoNumero} é <strong>${soma}!</strong>`
+        }
+    </script>
+</body>
+</html>

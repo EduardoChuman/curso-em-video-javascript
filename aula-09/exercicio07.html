@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de JS - Curso em Video</title>
+    <style>
+        body {
+            font: normal 18pt Arial;
+            color: white;
+            background: rgba(67, 128, 199);
+        }
+    </style>
+</head>
+<body>
+    <h1>Curso em video - Aula 09</h1>
+    <p>Aula 09 - Iniciando estudos com <strong>DOM</strong></p>
+    <br>
+    <p id="segundoParagrafo">Na aula iniciamos o conhecimento sobre a árvore DOM, onde:</p>
+    <ol>
+        <li>window é o primero nível do DOM (parent);</li>
+        <li>location, document e history são alguns exemplos de  filhas de window (child);</li>
+        <li>html é um exemplo de filha de document;</li>
+        <li>head e body são filhas de html e por aí vai</li>
+    </ol>
+    <p>Também aprendemos como selecionar os elementos do DOM com:</p>
+    <ul>
+        <li>Por Marca: getElementsByTagName()</li>
+        <li>Por ID: getElementById()</li>
+        <li>Por Nome: getElementsByName()</li>
+        <li>Por Classe: getElementsByClassName()</li>
+        <li>Por Seletor: querySelector()</li>
+    </ul>
+    <p>Os seletores que possuem mais de um resultado são separados por [x] no final do seletor.</p>
+    <p>Pintar o background da terceira linha desse li de amarelo - getElementsByTagName('li')[6].style.backgroundColor = 'yellow'</p>
+    <div class="msg">Clique em mim</div>
+    <script>
+        window.document.write(`A mensagem é: ${window.document.querySelector('div.msg').innerHTML}`)
+        window.document.querySelector('body').style.color = 'black'
+        window.document.getElementsByTagName('li')[6].style.backgroundColor = 'yellow'
+        window.document.getElementById('segundoParagrafo').style.fontWeight = 'bold'
+    </script>
+</body>
+</html>

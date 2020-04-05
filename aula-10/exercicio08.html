@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JS - Curso em Video</title>
+    <style>
+        div#evento {
+            font: normal 20px Arial;
+            background: green;
+            color: white;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+            border-radius: 25%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aula 10 - Parte 1 (Eventos)</h1>
+    <p>Além de interagir com os elementos do DOM o JS também pode criar eventos e atribuir funções dentro deles.</p>
+    <p>Alguns dos eventos apresentados na aula foram:</p>
+    <ul>
+        <li><strong>click:</strong> espera o click no elemento</li>
+        <li><strong>mouseenter:</strong> espera entrar no elemento</li>
+        <li><strong>mouseout:</strong> espera sair do elemento</li>
+        <li><strong>mousedown:</strong> espera o mouse pressionado</li>
+        <li><strong>mouseup:</strong> espera soltar o botão do mouse após pressionar</li>
+    </ul>
+    <div id="evento">
+        Interaja...
+    </div>
+    <script>
+        var evento = window.document.getElementById('evento')
+        evento.addEventListener('click', clicou)
+        evento.addEventListener('mouseenter', entrou)
+        evento.addEventListener('mouseout', sair)
+
+        function clicou() {
+            evento.innerText = 'Clicou!'
+            evento.style.background = 'red'
+        }
+        function entrou() {
+            evento.innerText = 'Entrou'
+        }
+        function sair() {
+            evento.innerText = 'Saiu'
+            evento.style.background = 'green'
+        }
+    </script>
+</body>
+</html>
