@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JS - Curso em Vídeo</title>
+    <style>
+        body {
+            font: Normal 18px Arial;
+        }
+        div.sistema {
+            background: navajowhite;
+            margin: 5px 5px;
+            padding: 15px 5px 30px 10px;
+            border-radius: 10px;
+        }
+        input {
+            border-radius: 5px;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aula 11 - Parte 1 (Condição Simples)</h1>
+    <p>Condições também existem na linhuagem JavaScript para validar determinada parte do código e assim criar possibilidades de comandos no seu código.</p>
+    <p><strong>Exemplo:</strong> Um sistema de multa, onde o input informa a velocidade do veículo e a condição simples informa se o veiculo será multado.</p>
+    <div class="sistema">
+        <h2>Sistema de Controle DETRAN</h2>
+        <label for="velocidade">Informe a velocidade do veículo: </label>
+        <input type="number" name="velocidade" id="velocidade">
+        <input type="button" value="Verificar" onclick="verificarVelocidade()">
+        <div class="resultado"></div>
+    </div>
+    <script>
+        function verificarVelocidade() {
+            var velocidade = Number(window.document.getElementById('velocidade').value)
+            var resultado = window.document.querySelector('div.resultado')
+            resultado.innerHTML = `<p>A velocidade do veículo é de <strong>${velocidade}km/h</strong></p>`
+            if (velocidade > 60) {
+                var sistema = window.document.getElementsByClassName('sistema')[0]
+                sistema.style.background = 'red'
+                sistema.style.color = 'white'
+                resultado.innerHTML += "<p>Ele ultrapassou o limite de velocidade, <strong>MULTADO!</strong></p>"
+            }
+            resultado.innerHTML += "<p>Use sempre o cinto de segurança</p>"
+        }
+    </script>
+</body>
+</html>

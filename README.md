@@ -8,7 +8,7 @@
     <li>window.prompt()</li>
 </ol>
 
-<h2>Aula 06</h2>
+<h2>Aula 06 - Atribuição de Variável e Conversão de Dados</h2>
 <p>Nesta aula foi apresentado:</p>
 <ol>
     <li>Atribuição de variável</li>
@@ -16,7 +16,7 @@
     <li>Conversão de variável em texto</li>
 </ol>
 
-<h2>Aula 07</h2>
+<h2>Aula 07 - Operadores Parte 1</h2>
 <p>Nesta aula foi apresentado a primeira parte dos operadores:</p>
 <ol>
     <li>Operadores Aritméticos</li>
@@ -28,7 +28,7 @@
     <li>Operadores de Incremento</li>
 </ol>
 
-<h2>Aula 08</h2>
+<h2>Aula 08 - Operadores Parte 2</h2>
 <p>Nesta aula foi apresentado a segunda parte dos operadores:</p>
 <ol>
     <li>Operadores Relacionais ("<", ">", ">=", "<=", "==", "!=")</li>
@@ -37,7 +37,7 @@
     <li>Operador Ternário ( teste ? verdadeiro : falso)</li>
 </ol>
 
-<h2>Aula 09</h2>
+<h2>Aula 09 - DOM</h2>
 <p>Nesta aula foi apresentado o DOM e como selecionar os elementos dele:</p>
 <ol>
     <li>Por Marca: getElementsByTagName()</li>
@@ -47,11 +47,25 @@
     <li>Por Seletor: querySelector()</li> 
 </ol>
 
-<h2>Aula 10</h2>
+<h2>Aula 10 - Eventos</h2>
 <p>Nesta aula foi apresentado os eventos do JavaScript:</p>
 <ol>
     <li>click</li>
     <li>mouseenter</li>
     <li>mouseout</li>
     <li>mouseenter</li>
+</ol>
+
+<h2>Aula 11 - Condições Parte 1</h2>
+<p>Nesta aula foi apresentado as condições do JavaScript:</p>
+<ol>
+    <li>Condições Simples: if</li>
+    <li>Condições Compostas: if e else</li>
+</ol>
+
+<h2>Aula 12 - Condições Parte 2</h2>
+<p>Nesta aula foi apresentado as condições do JavaScript:</p>
+<ol>
+    <li>Condições Aninhadas: ifelse</li>
+    <li>Condições Múltiplas: swicth</li>
 </ol>

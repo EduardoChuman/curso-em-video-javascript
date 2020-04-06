@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JS - Curso em Vídeo</title>
+    <style>
+        body {
+            font: Normal 18px Arial;
+        }
+        div.sistema {
+            background: navajowhite;
+            margin: 5px 5px;
+            padding: 15px 5px 30px 10px;
+            border-radius: 10px;
+        }
+        input {
+            border-radius: 5px;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aula 12 - Parte 1 (Condição Aninhada)</h1>
+    <p>Condições também existem na linguagem JavaScript para validar determinada parte do código e assim criar possibilidades de comandos no seu código.</p>
+    <p><strong>Exemplo:</strong> Um sistema para o usuário informar a idade e com base nisso verificar se ele pode votar, se não pode ou se votar é obrigatório.</p>
+    <div class="sistema">
+        <h2>Tribunal Regional Eleitoral</h2>
+        <label for="idade">Informe sua idade:</label>
+        <input type="text" name="idade" id="idade">
+        <input type="button" value="Analisar" id="botaoAnalisar">
+        <div class="resultado"></div>
+    </div>
+    <script>
+        var botaoAnalisar = window.document.querySelector('input#botaoAnalisar')
+        botaoAnalisar.addEventListener('click', analisar)
+        function analisar() {
+            var idade = Number(window.document.getElementById('idade').value)
+            var resultado = window.document.querySelector('div.resultado')
+            if (idade < 16 ) {
+                resultado.innerHTML = "<h3>Você não pode votar.</h3>"
+            } else if (idade < 18 || idade >= 65) {
+                resultado.innerHTML = "<h3>Você têm o direito de votar.</h3>"
+            } else {
+                resultado.innerHTML = "<h3>Você é obrigado(a) votar.</h3>"
+            }
+        }
+    </script>
+</body>
+</html>

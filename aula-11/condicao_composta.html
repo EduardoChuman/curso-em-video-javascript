@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JS - Curso em Vídeo</title>
+    <style>
+        body {
+            font: Normal 18px Arial;
+        }
+        div.sistema {
+            background: navajowhite;
+            margin: 5px 5px;
+            padding: 15px 5px 30px 10px;
+            border-radius: 10px;
+        }
+        input {
+            border-radius: 5px;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aula 11 - Parte 2 (Condição Composta)</h1>
+    <p>Condições também existem na linguagem JavaScript para validar determinada parte do código e assim criar possibilidades de comandos no seu código.</p>
+    <p><strong>Exemplo:</strong> Um sistema para o usuário informar a nacionalidade dele e obter como resposta se ele é Brasileiro ou Estrangeiro.</p>
+    <div class="sistema">
+        <h2>Imigração</h2>
+        <label for="nacionalidade">Informe sua nacionalidade:</label>
+        <input type="text" name="nacionalidade" id="nacionalidade">
+        <input type="button" value="Analisar" id="botaoAnalisar">
+        <div class="resultado"></div>
+    </div>
+    <script>
+        var botaoAnalisar = window.document.querySelector('input#botaoAnalisar')
+        botaoAnalisar.addEventListener('click', analisar)
+        function analisar() {
+            var nacionalidade = window.document.getElementById('nacionalidade').value
+            var resultado = window.document.querySelector('div.resultado')
+            if (nacionalidade == 'brasileiro' || nacionalidade == 'Brasileiro') {
+                resultado.innerHTML = `<h3>Você é brasileiro</h3>`
+                resultado.style.background = 'green'
+                resultado.style.color = 'yellow'
+                resultado.style.textAlign = 'center'
+            } else {
+                resultado.innerHTML = `<h3>Você é estrangeiro</h3>`
+                resultado.style.textAlign = 'center'
+            }
+        }
+    </script>
+</body>
+</html>

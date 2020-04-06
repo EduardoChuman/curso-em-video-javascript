@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JS - Curso em Vídeo</title>
+    <style>
+        body {
+            font: normal 18px Arial;
+            background: #ccc;
+            text-align: center;
+        }
+        div.sistema {
+            background: white;
+            width: 450px;
+            height: 300px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        footer {
+            margin-top: 10px;
+        }
+        img {
+            display: block;
+            background: white;
+            /* border-radius: 25%; */
+            font-size: 25px;
+            text-align: center;
+            margin-right: 1px;
+            border-radius:50%;
+            display:inline-block;
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hora do Dia</h1>
+    </header>
+    <section>
+
+    </section>
+    <footer><p>@EduardoChuman</p></footer>
+    
+    <div class="sistema">
+        <h3 id="horaDoDia"></h3>
+        <!-- <img src="../imagens/amanhecer.jpg"> -->
+    </div>
+    
+    <script>
+        var hora = new Date()
+        if(hora >= 5 || hora <= 7) {
+            // BOM DIA - AMANHECER
+        } else if (hora <= 16) {
+            // BOM DIA - DIA
+        } else if (hora <= 19) {
+            // BOA TARDE - ENTARDECER
+        } else {
+            // BOA NOITE
+        }
+    </script>
+</body>
+</html>
