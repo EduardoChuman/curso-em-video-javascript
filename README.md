@@ -69,3 +69,10 @@
     <li>Condições Aninhadas: ifelse</li>
     <li>Condições Múltiplas: swicth</li>
 </ol>
+
+<h2>Prática</h2>
+<p>Módulo D</p>
+<ol>
+    <li>Hora do Dia</li>
+    <li>Verificador Idade</li>
+</ol>
