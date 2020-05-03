@@ -66,8 +66,21 @@
 <h2>Aula 12 - Condições Parte 2</h2>
 <p>Nesta aula foi apresentado as condições do JavaScript:</p>
 <ol>
-    <li>Condições Aninhadas: ifelse</li>
+    <li>Condições Aninhadas: if else</li>
     <li>Condições Múltiplas: swicth</li>
+</ol>
+
+<h2>Aula 13 - Repetições Parte 1</h2>
+<p>Nesta aula foi apresentado as repetições do JavaScript:</p>
+<ol>
+    <li>Repetição com validação no inicio: while</li>
+    <li>Repetição com validação no fim: do while</li>
+</ol>
+
+<h2>Aula 14 - Repetições Parte 2</h2>
+<p>Nesta aula foi apresentado a repetição com variável de controle do JavaScript:</p>
+<ol>
+    <li>Repetição com variável de controle: for</li>
 </ol>
 
 <h2>Prática</h2>
@@ -75,4 +88,9 @@
 <ol>
     <li>Hora do Dia</li>
     <li>Verificador Idade</li>
+</ol>
+<p>Módulo E</p>
+<ol>
+    <li>Vamos contar</li>
+    <li>Tabuada</li>
 </ol>

@@ -1,0 +1,13 @@
+body {
+    font: Normal 18px Arial;
+    background-color: rgb(175, 113, 216);
+}
+input {
+    border-radius: 5px;
+}
+h2 {
+    text-align: center;
+}
+li {
+    padding: 15px;
+}
