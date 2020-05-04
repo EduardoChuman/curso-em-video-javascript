@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JS - Curso em Vídeo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Aula 15 - Variáveis Compostas (Arrays)</h1>
+    <p>Nessa aula aprendemos sobre as variáveis compostas, ou do termo em inglês "array".</p>
+    <p>O array é uma variável que possui vários elementos. Cada elemento é composto por um valor e uma chave de identificação.</p>
+    <img src="exemploArray.JPG">
+    <h2>Segue a lista de alguns comandos utilizados em arrays:</h2>
+    <ul>
+        <li>Adição de novos elementos: <strong>nomeArray[n] = N</strong> ou <strong>nomeArray.push(n)</strong></li>
+        <li>Verificar o comprimento de um array: <strong>nomeArray.length</strong></li>
+        <li>Organizar os elementos do array de forma crescente: <strong>nomeArray.sort()</strong></li>
+        <li>Pesquisar o indice de determinado valor dentro do seu array: <strong>nomeArray.indexOf(n)</strong>
+            <ul>
+                <li>Caso encontrar o elemento desejado ele retorna a posição do array na qual o elemento se encontra</li>
+                <li>Caso não encontre, o resultado sessa função será "-1"</li>
+            </ul>
+        </li>
+    </ul>
+    <img src="exemploArrayJs.jpg">
+    <p><strong>Exercício: </strong>Mostrar um array de 6 elementos do tip número e depois mostrar na tela a posição e o valor dentro dela.</p>
+    <div id="resultado"></div>
+    <h2>Estrutura de repetição for... in</h2>
+    <p>Nas novas versões do ECMAScript for criada uma nova estrutura de repetição específica para variáveis compostas, o <strong>for... in</strong></p>
+    <ul>
+        <li><strong>For... in: </strong>Ele não é composto por três blocos como o for tradicional, ele somente precisa de uma variavel de controle e o nome do array que ele irá percorrer</li>
+        <li><strong>Exemplo: </strong> for (let variavelControle in array) { bloco de comandos }</li>
+    </ul>
+    <p><strong>Exercício: </strong>Montar um array de letras fora de ordem, ordená-las e depois apresentar a posição e o seu valor.</p>
+    <div id="resultado_2"></div>
+    <script src="script.js"></script>
+</body>
+</html>

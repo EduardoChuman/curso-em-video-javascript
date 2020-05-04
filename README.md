@@ -88,6 +88,22 @@
     <li>Repetição com variável de controle: for</li>
 </ol>
 
+<h2>Módulo F - Avançando os estudos em JavaScript</h2>
+<h3>Aula 14 - Variavéis Compostas</h3>
+<p>Nesta aula foi apresentado as variáveis de controle JavaScript:</p>
+<ol>
+    <li>Variável de controle: array</li>
+</ol>
+
+<h3>Aula 15 - Funções</h3>
+<p>Nesta aula foi apresentado a introdução das funções em JavaScript:</p>
+<ol>
+    <li>Funções são ações executadas assim que são chamadas ou em decorrencia de algum evento.</li>
+    <li>Elas podem receber parâmetros default caso não seja enviado no momento de chamar a função.</li>
+    <li>Elas podem ser atribuídas diretamente em variáveis.</li>
+    <li>Elas podem ser chamadas de forma recursiva.</li>
+</ol>
+
 <h2>Prática</h2>
 <p>Módulo D</p>
 <ol>
@@ -99,6 +115,11 @@
     <li>Vamos contar</li>
     <li>Tabuada</li>
 </ol>
+<p>Módulo F</p>
+<ol>
+    <li>Analisador de Números</li>
+</ol>
+
 
 
 
