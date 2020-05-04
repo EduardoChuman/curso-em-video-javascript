@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JS - Curso em Vídeo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Aula 16 - Funções</h1>
+    <p>Funções são ações executadas assim que são chamadas ou em decorrencia de algum evento.</p>
+    <p>Uma função pode receber parâmetro e retornar um resultado.</p>
+    <img src="funcaoNaVida.jpg">
+    <p><strong>Exercício: </strong>Criar uma função que pega uma lista de um array numérico e informa se o número é par ou ímpar.</p>
+    <div id="resultado"></div>
+    <p>Funções também podem passar parâmentros default caso não seja enviado</p>
+    <ul>
+        <li><strong>Exemplo:</strong><br>
+            function soma (primeiroNumero = 0, segundoNumero = 0) { <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return primeiroNumero + segundoNumero
+            <br>}
+        </li>
+    </ul>
+    <p>No JavaScript funções também podem ser atribuidas em variáveis</p>
+    <ul>
+        <li><strong>Exemplo:</strong><br>
+            var numeroMultiplicado = function (numero) { <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return numero * 2
+                <br>}
+        </li>
+    </ul>
+    <p>Outra possibilidades falando em funções é a recursividade, ou seja, a função pode chamar ela mesma no bloco de ações</p>
+    <p><strong>Exercício: </strong>Criar uma função que pega uma lista o mesmo array numérico do primeiro execicio e calcula seu faturial.</p>
+    <div id="resultado_2"></div>
+    <script src="script.js"></script>
+</body>
+</html>
