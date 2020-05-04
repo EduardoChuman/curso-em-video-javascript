@@ -1,0 +1,26 @@
+body {
+    font: Normal 18px Arial;
+    background-color: rgb(175, 113, 216);
+}
+input {
+    border-radius: 5px;
+}
+div {
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.356);
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+li {
+    padding: 15px;
+}
+img {
+    display: block;
+    margin: auto;
+}
