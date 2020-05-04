@@ -89,19 +89,26 @@
 </ol>
 
 <h2>Módulo F - Avançando os estudos em JavaScript</h2>
-<h3>Aula 14 - Variavéis Compostas</h3>
+<h3>Aula 15 - Variavéis Compostas</h3>
 <p>Nesta aula foi apresentado as variáveis de controle JavaScript:</p>
 <ol>
     <li>Variável de controle: array</li>
 </ol>
 
-<h3>Aula 15 - Funções</h3>
+<h3>Aula 16 - Funções</h3>
 <p>Nesta aula foi apresentado a introdução das funções em JavaScript:</p>
 <ol>
     <li>Funções são ações executadas assim que são chamadas ou em decorrencia de algum evento.</li>
     <li>Elas podem receber parâmetros default caso não seja enviado no momento de chamar a função.</li>
     <li>Elas podem ser atribuídas diretamente em variáveis.</li>
     <li>Elas podem ser chamadas de forma recursiva.</li>
+</ol>
+
+<h3>Aula 17 - Próximos Passos</h3>
+<p>Nesta aula foi apresentado os principios dos objetos em JsvaScript</p>
+<ol>
+    <li>Objetos são uma "evolução" dos arrays, onde além dos valores, podemos também declarar os identificadores.</li>
+    <li>Além das variáveis, nos objetos podemos guardar como atributos funções, que são chamados de métodos na POO.</li>
 </ol>
 
 <h2>Prática</h2>
